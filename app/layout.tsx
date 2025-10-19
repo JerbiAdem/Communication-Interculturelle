@@ -8,9 +8,8 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" })
 const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfair" })
 
 export const metadata: Metadata = {
-  title: "Laboratoire d'Identité - Mon Journal Culturel",
-  description: "Un journal interactif explorant l'identité culturelle entre la Tunisie et la France",
-  generator: "v0.app",
+  title: " Mon Portrait Culturel ",
+  description: "Un journal interactif explorant mon identité culturelle",
 }
 
 export default function RootLayout({

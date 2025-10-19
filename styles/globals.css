@@ -122,4 +122,17 @@
   body {
     @apply bg-background text-foreground;
   }
+  /* Justify paragraph text globally for a more book-like layout */
+  p {
+    text-align: justify;
+    text-justify: inter-word;
+    hyphens: auto;
+  }
+
+  /* Utility class if you prefer to apply justification selectively */
+  .text-justified {
+    text-align: justify;
+    text-justify: inter-word;
+    hyphens: auto;
+  }
 }
