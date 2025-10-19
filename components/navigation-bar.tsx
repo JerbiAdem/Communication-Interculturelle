@@ -6,14 +6,14 @@ import { Button } from "@/components/ui/button"
 
 const navItems = [
   { label: "Accueil", href: "#hero" },
-  { label: "Mes valeurs", href: "#values" },
-  { label: "Ce qui me motive", href: "#drives" },
-  { label: "Mes rituels", href: "#rituals" },
-  { label: "Mes ancrages", href: "#anchors" },
+  { label: "Valeurs", href: "#values" },
+  { label: "Motivations", href: "#drives" },
+  { label: "Rituels", href: "#rituals" },
+  { label: "Ancrages", href: "#anchors" },
   { label: "Cartographie", href: "#mapping" },
-  { label: "Créer des ponts", href: "#bridging" },
-  { label: "Conversations intérieures", href: "#conversations" },
-  { label: "Suivi d'humeur", href: "#mood-tracker" },
+  { label: "Ponts", href: "#bridging" },
+  { label: "Conversations", href: "#conversations" },
+  { label: "Humeur", href: "#mood-tracker" },
 ]
 
 export function Navigation() {
@@ -35,10 +35,13 @@ export function Navigation() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 py-4">
-        <div className="flex items-center justify-between">
-          <a href="#hero" className="font-serif text-2xl font-bold">
+        <div className="flex items-center">
+          <a href="#hero" className="font-serif text-2xl font-bold mr-6 md:mr-8">
             Portrait Culturel
           </a>
+
+          {/* spacer pushes nav and button to the right */}
+          <div className="flex-1" />
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-6">
